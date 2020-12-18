@@ -474,6 +474,10 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "TALEND:_2wPqIEEuEeuFp7-jBZAtNQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
     "id" : "DQTechnical",
     "version" : "Latest",
     "type" : "routine"
