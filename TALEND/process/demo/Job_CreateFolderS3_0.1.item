@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:zYSoePRdr1gX3sRUj0KQHHDhw7ZGt7bD7jENrYci"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:5x95AaCcCt3l8/2ZQYcSg2tP/qwUHz5bA1tpgjmA"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:xa7cSIHNGCBrhkSJttJsGUbk4jTUMdF9n1irdAV8"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:a0BmjNPONvUdsi/k/nkGDjIewXbFDymCycjOQZPG"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -112,12 +112,12 @@
     <routinesParameter id="_Gu1m4EEFEeuFp7-jBZAtNQ" name="TalendStringUtil"/>
     <routinesParameter id="_GuiE4EEFEeuFp7-jBZAtNQ" name="TalendString"/>
   </parameters>
-  <node componentName="tS3Put" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="224">
+  <node componentName="tS3Put" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tS3Put_1"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="TEXT" name="ACCESS_KEY" value="&quot;AKIAWO3OATBZNZKI65VR&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:sjbF36DRciqkDHQN4WDyoRgC3fXuctSzX9bc6zwr0SbABc83oSgFfA82IHutNS6xBhmBhqe/7YW8ttTiV8vrsm3MmVVSOw=="/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:XWKpZGhaFPTRwt5Mmt/qsOY1PAUo+NvsMDT2knz/bUmjbZNOq7+GOACuz18XcUDTul6R23hD4v1vGuxmFVIRntn5vuO4iA=="/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -129,8 +129,8 @@
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_SYMMETRIC_MASTER_KEY" show="false" value="AES"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_ASYMMETRIC_MASTER_KEY" show="false" value="RSA"/>
     <elementParameter field="CLOSED_LIST" name="ENCODING" show="false" value="BASE64"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:b76E2k/I/2HZ8oT/OpN5WFSPrqDlO6dKfJ3qU5T2"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:S3vhrdTfds+qpsP0QAFVycx1EkQo7Yb/zOut5TM9"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:L5o+LpuJuG10o5H9i3ZMTFeUNHil4T7BveJdh/Do"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:37nqsYf1HYHI8s+jB8ATfz5LTaNpyVFzYOtetoqT"/>
     <elementParameter field="FILE" name="ENCRYPTED_KEY_X509" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PUBLIC_KEY" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" show="false" value="&quot;&quot;"/>
@@ -151,12 +151,12 @@
     <elementParameter field="TABLE" name="ACL" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tS3Copy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="224">
+  <node componentName="tS3Copy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tS3Copy_1"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="TEXT" name="ACCESS_KEY" value="&quot;AKIAWO3OATBZNZKI65VR&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:L53P8CUiXpuKW08EpXhaqX95ibi28GSRIvGmJtgJaf2Z6Wka9kh7tWEElldweu55qgR0j25nWO32BQjljk4r6ISsPA08Hw=="/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:S7TZircZb5TZL6QqUyuHBQte3RlHhMyNaQ0yr9dC8yBhG++gL4VIqBBMHT4ppWn+Fh1P0DoogHKZ7QOR7Bo1x4wb1FJ5PA=="/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -178,12 +178,12 @@
     <elementParameter field="TEXT" name="PART_SIZE" value="100"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tS3Delete" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="224">
+  <node componentName="tS3Delete" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tS3Delete_1"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="TEXT" name="ACCESS_KEY" value="&quot;AKIAWO3OATBZNZKI65VR&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:I5u9RQqvk0Ql8ehmFtw5ukL76DlH2mVNfrzCsAPV0nF6FE2A/kM2nAOOyVkg8HTAJa1kEbhO8zSfJs/NXrQ/pUf3qj0zZQ=="/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:gnB9h0Ur5ZIjQP/paQVA9sVhIJ2EbdKnFRTe97plurlSTPSOljgg+Wxf4WijERVVaHRChFSBXkuRjiKYhiFJ6sSYRKv1rg=="/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -191,7 +191,7 @@
     <elementParameter field="TEXT" name="SESSION_DURATION" show="false" value="15"/>
     <elementParameter field="OPENED_LIST" name="REGION" value="DEFAULT"/>
     <elementParameter field="TEXT" name="BUCKET" value="&quot;s3s-i-datalake-raw-test&quot;"/>
-    <elementParameter field="TEXT" name="KEY" value="&quot;test/test123/out.csv&quot;"/>
+    <elementParameter field="TEXT" name="KEY" value="&quot;test/test123/out.csv&quot; "/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="CHECK" name="CONFIG_CLIENT" value="false"/>
     <elementParameter field="TABLE" name="CLIENT_CONFIGURATION" show="false"/>
@@ -199,12 +199,21 @@
     <elementParameter field="TEXT" name="STS_ENDPOINT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="224">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value=" java.util.Date mydate=TalendDate.getCurrentDate();&#10; &#10; int year=TalendDate.getPartOfDate(&quot;YEAR&quot;,mydate);&#10; int month=TalendDate.getPartOfDate(&quot;MONTH&quot;,mydate)+1;&#10; String months=String.valueOf(month);&#10; "/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value=" java.util.Date mydate=TalendDate.getCurrentDate();&#10; &#10; int year=TalendDate.getPartOfDate(&quot;YEAR&quot;,mydate);&#10; int month=TalendDate.getPartOfDate(&quot;MONTH&quot;,mydate)+1;&#10; String months=String.valueOf(month);&#10; &#10; &#10; globalMap.put(&quot;currentMonth&quot;,months);&#10; "/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tSetGlobalVar" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSetGlobalVar_1"/>
+    <elementParameter field="TABLE" name="VARIABLES">
+      <elementValue elementRef="KEY" value="&quot;CurrentMonth&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;00&quot;"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tSetGlobalVar_1"/>
   </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tS3Put_1" offsetLabelX="0" offsetLabelY="0" source="tS3Put_1" target="tS3Copy_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
@@ -214,6 +223,9 @@
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tS3Put_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk3"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tSetGlobalVar_1" offsetLabelX="0" offsetLabelY="0" source="tSetGlobalVar_1" target="tJava_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk4"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tS3Put_1"/>
@@ -235,13 +247,18 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1aedc456-7d84-4a47-b557-ddebd63fee07"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>I2LbXk+5cAU27Qp0TvWqCgTywfAhxZjeFKJpwoxYa1va5xfMHH5DfG6ZE/rrMNeR9KxVXVfPI23V
-0qRSzMda2Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_67bf9898-ea1e-42ca-b7b8-637addaa8525"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>FOtG/Xt2QzRF9AChe4qA6pRASYB6br24YVlJgZ4Ksrc/jJl50d+LjKo94SXpU4d2njGURUpOqa3D
-y7dic2QswQ==</DigestValue></Reference></SignedInfo><SignatureValue>MYcqVfk9fvuugRK7g/bCju57+XBDFx8kqOI1my2yP1P6HjLnQby3hFb2PGYzTAV7I6SKqSbVDXit
-8ZRa5CiAmJklWbCuLu8tbfphAtbHgv3XwXnbNjwch6HW9QBXfHT4S6DuuTwIdOu0tpq3EOkSgPmE
-XBC4Pn6SEInXO9RB5B934qwC4yURaj/18Ik4a47PWkzDfM6Yd8Z7y+4rycrKid7vxKDtj0rR/VD6
-T2mGCORBoDHVbo2WrknBPDxxJHensrLMcm92NbPafgeKlWo6351xkJbNu0oJaNmp3w13ge6QHQbr
-xInYOfWP4E+sh0r+VkPuxOasHdP9168YPnQ6zg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSetGlobalVar_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_62ab77dc-752d-4c31-88b3-5035afb08a71"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>vYMMKpSf+4CZ5I3stoS+te6H48Y0zYwevU8k+xonwGNP+nmuoobJurpKnWeYF9i7IAJHh6kSikDI
+xTfWGowgXw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_16d1b234-ef1f-47c5-a9e2-b45a8211be76"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>gXk5sTXBkODQwZxyYJmJ38GcYL48DdqsE9ODDANYJ913WIvgjRtE06rMezDvIfN0cPyHvv79fpII
+MApGWu/nyQ==</DigestValue></Reference></SignedInfo><SignatureValue>F5iAgFC2Hj8w3uQwlBqPJrr9TNyl1vGVqfovijdojrEcWDRxSsArPmojBwX7x8uThOYpY45x1QSU
+j9jSQhwnBc1lvk1CxdnpJTGt7mWUHNhzh4u1wsA9AWQx8BShVawlBi40R0tT1WOgqzf/EbT5slua
+VOE1vcZI5TexYnCphc2x18VVE/fV0+doZzbNeN0P5MwckovDzfWQVpqzGViZoSwOe0QEhpSn6O4q
+f6tnE000ay6Inq4aBD1G4L8mUsMvyzzAh77ON3mBjAAF7KceR9zuyc/xzE8ZiOp69BfJoqzI/wyh
+CzxhvAWOXZRxeXgu3aqAhd0dAvuwZqjfbpbPNw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -263,4 +280,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_67bf9898-ea1e-42ca-b7b8-637addaa8525" Target="#_1aedc456-7d84-4a47-b557-ddebd63fee07"><Timestamp>2021-01-22 10:57:21</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_16d1b234-ef1f-47c5-a9e2-b45a8211be76" Target="#_62ab77dc-752d-4c31-88b3-5035afb08a71"><Timestamp>2021-01-22 11:01:55</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
