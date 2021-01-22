@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:42ksP1qgOXEVahc/LueozjqHL9anoiXCZNR42jyU"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:5TsIT1ltqI2QZWdvxo9wpKtWldivD/rxY5hsBgE5"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:2ue5MpDaWMbEUVwm0z6xUXN1XQ7ocVkyHPE4fru0"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:fAFKJDNFwqngMCLPyyavz1ln1WkG46cbgSdZpOxP"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -117,7 +117,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="TEXT" name="ACCESS_KEY" value="&quot;AKIAWO3OATBZNZKI65VR&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:r1fRfHF9pJo7i/Ug/HHSXnP4pzi1JwoAnccDffOexYNoRpuNZTbD1ncJoveyU+7TLDFQmYU/Ah6nW238bWmh4Gdit6kKpg=="/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:pi0YEDRgOxsIdR9G1E0A3BtNGhBsteOvhcc4oaQ2woMdPn3e5NHxwA1WDDv0quiFsrsplo3g7PghT6fPQH7wycIUFtO4bg=="/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -129,13 +129,13 @@
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_SYMMETRIC_MASTER_KEY" show="false" value="AES"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_ASYMMETRIC_MASTER_KEY" show="false" value="RSA"/>
     <elementParameter field="CLOSED_LIST" name="ENCODING" show="false" value="BASE64"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:KonblsdV/RnnrqP76aeUEq6I4eZz1Wkq90JZm3jB"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:5B36NLOHE2ey3nfZH9r3xTtC4qY168et444L8vXk"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:adiT7fb4IVc1e1khmcXQ1e3gqs7UOP4Rd3WCho6E"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:Q87IFlv4pOpiCZNOu3z8Sv7kuvpQeKk9zUZ0PooO"/>
     <elementParameter field="FILE" name="ENCRYPTED_KEY_X509" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PUBLIC_KEY" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="BUCKET" value="&quot;s3s-i-datalake-raw-test&quot;"/>
-    <elementParameter field="TEXT" name="KEY" value="&quot;test/&quot; + ((String)globalMap.get(&quot;CurrentMonth&quot;)) + &quot;/out.csv&quot;"/>
+    <elementParameter field="TEXT" name="KEY" value="((String)globalMap.get(&quot;CurrentYear&quot;)) + &quot;/&quot; + ((String)globalMap.get(&quot;CurrentMonth&quot;)) + &quot;/out.csv&quot;"/>
     <elementParameter field="FILE" name="FILE" value="&quot;C:/Users/BartVanBever/workspace/out.csv&quot;"/>
     <elementParameter field="CHECK" name="ENABLE_SERVER_SIDE_ENCRYPTION" value="false"/>
     <elementParameter field="CHECK" name="ENABLE_KMS" show="false" value="false"/>
@@ -156,7 +156,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="TEXT" name="ACCESS_KEY" value="&quot;AKIAWO3OATBZNZKI65VR&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:+dDYA9kfaoEPGgMnt8ROjHh2+QSQ+QragiSWyGNTM8AYuLC70Bkhe4BS7WXlP6sxp19rB3e6lvg0g86jrRAW8t3KJEKqCw=="/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:ep8618tzWlQ+2r0Bh8MyPbkGRZuY3t/kkfqY1tEifd/LZMTLkB8T48okX9YUGvzCcqSfIrlUbcEbYKD+91mZ+eCYSr/5/Q=="/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -183,7 +183,7 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="TEXT" name="ACCESS_KEY" value="&quot;AKIAWO3OATBZNZKI65VR&quot;"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:w0xPA/wJIOz3npz7pB67WbKNc3sNKb30UBcYmQ7AglZROsJrYmr4AN5vA3ILvUUAD54rvcowjNWOHsOWSCLUOvcOjDTwgw=="/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:MxcYa+e9ohEyNElakO5JZrI67S7sfdZ1Qe8U+69gKvCdZFWdU5u9zOct/ZBxWcKmN0ejX4QhKZT17fwz+rq6qCUer4WSVA=="/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -201,7 +201,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value=" java.util.Date mydate=TalendDate.getCurrentDate();&#10; &#10; int year=TalendDate.getPartOfDate(&quot;YEAR&quot;,mydate);&#10; int month=TalendDate.getPartOfDate(&quot;MONTH&quot;,mydate)+1;&#10; String months=String.valueOf(month);&#10; &#10; &#10; globalMap.put(&quot;CurrentMonth&quot;,months);&#10; "/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value=" java.util.Date mydate=TalendDate.getCurrentDate();&#10; &#10; int year=TalendDate.getPartOfDate(&quot;YEAR&quot;,mydate);&#10; int month=TalendDate.getPartOfDate(&quot;MONTH&quot;,mydate);&#10; &#10; String months=String.valueOf(month);&#10; String years=String.valueOf(year)&#10; &#10; globalMap.put(&quot;CurrentMonth&quot;,months);&#10; globalMap.put(&quot;CurrentYear&quot;, years); &#10; "/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
@@ -211,14 +211,18 @@
     <elementParameter field="TABLE" name="VARIABLES">
       <elementValue elementRef="KEY" value="&quot;CurrentMonth&quot;"/>
       <elementValue elementRef="VALUE" value="&quot;00&quot;"/>
+      <elementValue elementRef="KEY" value="&quot;CurrentYear&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;9999&quot;"/>
     </elementParameter>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tSetGlobalVar_1"/>
   </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tS3Put_1" offsetLabelX="0" offsetLabelY="0" source="tS3Put_1" target="tS3Copy_1">
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tS3Copy_1" offsetLabelX="0" offsetLabelY="0" source="tS3Copy_1" target="tS3Delete_1">
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk2"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tS3Put_1">
@@ -252,13 +256,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_3db9cbf8-d33d-4abf-b7a5-d3bbab099548"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>skVSaBycXBna1u1QtgxotsE7fA/fJx2nLOMle4QR9vy3sFZHBB+dEEU89jvggXbZqoRvo7Q7/wjO
-BiNmffwyEQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_df9def77-7ca3-4655-b7c2-05afdd9f7417"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>q4QhPt/ZRlKtITKFQqXiNsvuf5oisFgtMR67SQuOG1snv6nH8UjKptq7/UgxhuresUqTS37+1huh
-45GtLjDHLg==</DigestValue></Reference></SignedInfo><SignatureValue>b54Ly916jjUilwRfveLTZ+XT+NkbyhD8EsSlm+m6/O2RAPhQIeicu79dGueT6OMmxG3t1swumU0o
-2+G1H0DwPqGtdxSyvime76kmyj1LRqJqMdFJ1UzsNN2gNKBYVuKj+E8KqNhw5K2gIg6VL0ZfhQUq
-CF5Are2PbcKD+V7XrloJ3ghYLTEdMv1LKy8ZZMSz3EFCZQC5Sjd1kYwfUT6W7LkZTOXJo3JXmJoS
-A6H+zxKMBEdlVwcD/mwmnwBW8raCPx3PXHWjK4Q1ncNtdEJhniKrvSX0C9Ykw9LyMyyiUKe5FaFg
-S4Ksc/iMnwxrDSrkG18hkjaP8ivLof/E4PoAsQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c2211f32-e83b-4bd9-8d06-db0d86981814"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ssRqSnV0qj9jJy0/1m7+BSaU9qrteCXRAcnq6V8hkgBny/gtSz1Lw0ThW2SYVwU4jrAE2pJP6hTz
+xIrA6uAoXg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_52640cce-5579-423c-a185-064d536d8cc2"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>pN8c/08HdRRi3B0kSlgpZ1WV6M6gTiCCqE60lz6Zr7nLarCfIdAvFO01o0LtHk5L2aNl3ZqNJYOU
+zPVmGZdaqA==</DigestValue></Reference></SignedInfo><SignatureValue>DqPwQPHPsnfCBLPeGl00ycIt55YtD2n5m4N34dHaftYz8EL6N+9ruAAOvv8xejMHgdGNY/xFYpV4
+Zgk3tccgj92m3SxbFuzchJN6EVSsnFawGyCLrk34LGK6x7BXU0pRIThFXC9f+GOLSovwJD5Z7QeI
+9Gr8E2pfx34zzyztwOy2P9AS0fBsSmIn5ug498IASJJjaA8aWYEEQAzFlz4yOKxD+T+5LOxdOx1n
+91D9RO9GRvT5YFR3kLE/TQsiESfmdKJfaifud7fHDNYRcubMP96tMvsO1wPxu7bs2NA+rA2biAcv
+oWIteNft/7fAWlYwqAutGWpiPLKt/VNXzRc3FA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -280,4 +284,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_df9def77-7ca3-4655-b7c2-05afdd9f7417" Target="#_3db9cbf8-d33d-4abf-b7a5-d3bbab099548"><Timestamp>2021-01-22 11:45:32</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_52640cce-5579-423c-a185-064d536d8cc2" Target="#_c2211f32-e83b-4bd9-8d06-db0d86981814"><Timestamp>2021-01-22 11:50:23</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
